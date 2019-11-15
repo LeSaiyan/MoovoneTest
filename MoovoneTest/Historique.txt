@@ -1,9 +1,9 @@
-Pour commencer j'ai testé l'api avec Postman.
-J'ai ensuite créé mon répo Git puis créer mon projet Angular.
-J'ai commencé par créer mes composant Home et AnimeList ainsi que le routing entre ces deux composants, ensuite j'ai créé mon service et récupéré les données de mon api.
-A ce moment je me suis retrouvé confronté à un point bloquant par rapport aux headers, j'ai cherché longtemps comment configurer les headers mais sans succès, la seule solution que j'ai trouvé à été d'installer une extension chrome nommé CORS changer, bien que je me doute que ce soit fortement déprécié.
-J'ai ensuite fait un minimum de CSS puis enfin j'ai créé ma modale.
-J'ai par la suite remplacé toutes mes données en dur par les données de l'api, pour les données à l'intérieur de la modal je n'ai pas refait une requête. J'ai juste eu à transmettre les données que je voulais a la méthode openDialog(). Ayant beaucoup travailler sur des modales lors de mon dernier stage j'étais déjà familier avec ce composant d’Angular.
-Les problèmes que j'ai rencontrés ont été, le problème de headers, et aussi le typage des données, je n'aie donc pas utilisé de modèles.
+Pour commencer j'ai testÃ© l'api avec Postman.
+J'ai ensuite crÃ©Ã© mon rÃ©po Git puis crÃ©er mon projet Angular.
+J'ai commencÃ© par crÃ©er mes composant Home et AnimeList ainsi que le routing entre ces deux composants, ensuite j'ai crÃ©Ã© mon service et rÃ©cupÃ©rÃ© les donnÃ©es de mon api.
+A ce moment je me suis retrouvÃ© confrontÃ© Ã  un point bloquant par rapport aux headers (imghisto dans le repo) , j'ai cherchÃ© longtemps comment configurer les headers mais sans succÃ¨s, la seule solution que j'ai trouvÃ© Ã  Ã©tÃ© d'installer une extension chrome nommÃ© CORS changer, bien que je me doute que ce soit fortement dÃ©prÃ©ciÃ©.
+J'ai ensuite fait un minimum de CSS puis enfin j'ai crÃ©Ã© ma modale.
+J'ai par la suite remplacÃ© toutes mes donnÃ©es en dur par les donnÃ©es de l'api, pour les donnÃ©es Ã  l'intÃ©rieur de la modal je n'ai pas refait une requÃªte. J'ai juste eu Ã  transmettre les donnÃ©es que je voulais a la mÃ©thode openDialog(). Ayant beaucoup travailler sur des modales lors de mon dernier stage j'Ã©tais dÃ©jÃ  familier avec ce composant dâ€™Angular.
+Les problÃ¨mes que j'ai rencontrÃ©s ont Ã©tÃ©, le problÃ¨me de headers, et aussi le typage des donnÃ©es, je n'aie donc pas utilisÃ© de modÃ¨les.
 Ces deux points m'ont fait perdre pas mal de temps.
 J'ai aussi malheureusement mis un peu plus que 4 heures pour ce rendu.
