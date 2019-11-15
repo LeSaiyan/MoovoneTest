@@ -1,0 +1,32 @@
+.anime-card {
+    background-color: #d3dddc;
+    height: 20vh;
+    width: 17%;
+    margin: 2%;
+    padding: 2%;
+}
+
+.animesList{
+    background-color: #d7f4f1;
+    height: auto;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.animeProp, .userCard{
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.userCard{
+    background-color: #d7f4f1;
+    height: 30vh;
+    width: 25%;
+}

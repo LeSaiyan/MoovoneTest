@@ -1,0 +1,9 @@
+Pour commencer j'ai testé l'api avec Postman.
+J'ai ensuite créé mon répo Git puis créer mon projet Angular.
+J'ai commencé par créer mes composant Home et AnimeList ainsi que le routing entre ces deux composants, ensuite j'ai créé mon service et récupéré les données de mon api.
+A ce moment je me suis retrouvé confronté à un point bloquant par rapport aux headers, j'ai cherché longtemps comment configurer les headers mais sans succès, la seule solution que j'ai trouvé à été d'installer une extension chrome nommé CORS changer, bien que je me doute que ce soit fortement déprécié.
+J'ai ensuite fait un minimum de CSS puis enfin j'ai créé ma modale.
+J'ai par la suite remplacé toutes mes données en dur par les données de l'api, pour les données à l'intérieur de la modal je n'ai pas refait une requête. J'ai juste eu à transmettre les données que je voulais a la méthode openDialog(). Ayant beaucoup travailler sur des modales lors de mon dernier stage j'étais déjà familier avec ce composant d’Angular.
+Les problèmes que j'ai rencontrés ont été, le problème de headers, et aussi le typage des données, je n'aie donc pas utilisé de modèles.
+Ces deux points m'ont fait perdre pas mal de temps.
+J'ai aussi malheureusement mis un peu plus que 4 heures pour ce rendu.

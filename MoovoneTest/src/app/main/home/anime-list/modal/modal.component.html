@@ -1,0 +1,18 @@
+<div mat-dialog-actions>
+    <div class="anime-card">
+        <div class="header">
+            <img class="img" src="{{data.image_url}}"/>
+            <ul>
+                <li>{{data.title}}</li>
+                <li>{{data.episodes}} épisodes</li>
+                <li>{{data.type}}</li>
+                <li>{{data.score}}/10</li>
+            </ul>
+        </div>
+
+        <span>
+            {{data.synopsis}}
+        </span>
+            <button mat-button (click)="onNoClick()">Fermer</button>
+    </div>
+</div>

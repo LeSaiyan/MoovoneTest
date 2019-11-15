@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="userCard">
+        <span>Bonjour Machin</span>
+        <span>Il y a {{animesTab.length}} episodes</span>
+    </div>
+    <div class="animesList">
+        <mat-card class="anime-card" (click)="openDialog(item)" *ngFor="let item of animesTab">
+            <div class="animeProp">
+                <span>{{item.title}}</span>
+                <span>{{item.type}}</span>
+            </div>
+        </mat-card>
+    </div>
+</div>
